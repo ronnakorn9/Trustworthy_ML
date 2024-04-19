@@ -327,20 +327,20 @@ print(f"[RESULT] forget data average loss = {nonmember_loss}")
 print(f"[RESULT] forget data average accuracy = {nonmember_acc}")
 print(f"[RESULT] forget data average confidence = {nonmember_avg_conf}")
 
-# MIA_evaluate(target_model = unlearned_model, 
-#              attack_model = attack_model, 
-#              target_traindata = target_train, 
-#              test_data = test_data, 
-#              device = device, 
-#              result_save_location = save_path,
-#              save_result = True, append_result=True)
+MIA_evaluate(target_model = unlearned_model, 
+             attack_model = attack_model, 
+             target_traindata = target_train, 
+             test_data = test_data, 
+             device = device, 
+             result_save_location = save_path,
+             save_result = True, append_result=True)
 
-# MIA_evaluate(target_model = unlearned_model, 
-#              attack_model = attack_model, 
-#              target_traindata = retain_dataset, 
-#              test_data = forget_dataset, 
-#              device = device, 
-#              result_save_location = save_path,
-#              save_result = True, append_result=True)
+MIA_evaluate(target_model = unlearned_model, 
+             attack_model = attack_model, 
+             target_traindata = retain_dataset, 
+             test_data = forget_dataset, 
+             device = device, 
+             result_save_location = save_path,
+             save_result = True, append_result=True)
 
 print("[INFO] all done")
