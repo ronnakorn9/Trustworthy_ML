@@ -1,4 +1,5 @@
 ### Machine Unlearning using SISA+SCRUB
+Model-agnostic unlearning by applying SCRUB unlearning in SISA (model sharding) framework
 
 ref:
     SISA: https://ieeexplore.ieee.org/abstract/document/9519428
