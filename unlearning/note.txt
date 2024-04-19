@@ -3,11 +3,10 @@ file structures
 src:
     contain all .py file
 data:
-    contain raw dataset
-    Purchase
     CIFAR-10
-    <NLP>
+        shard_1: CIFAR-10 in 1 shard
+        shard_3: CIFAR-10 in 3 shard
 model:
     contain pretrained model
-    ResNet
-    Transformer(?)
+    ResNet (shadow model)
+    Attacker model

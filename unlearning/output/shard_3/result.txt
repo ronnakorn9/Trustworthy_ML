@@ -1,1 +1,2 @@
-3 Shard modelAccuracy using majority vote: 64.87%
+3 Shard model
+Accuracy using majority vote: 64.87%
