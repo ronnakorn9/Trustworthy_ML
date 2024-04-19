@@ -1,0 +1,4 @@
+==============================
+Attack on original model
+member attack accuracy 0.8902
+nonmember attack accuracy 0.1101

@@ -1,0 +1,13 @@
+file structures
+
+src:
+    contain all .py file
+data:
+    contain raw dataset
+    Purchase
+    CIFAR-10
+    <NLP>
+model:
+    contain pretrained model
+    ResNet
+    Transformer(?)
